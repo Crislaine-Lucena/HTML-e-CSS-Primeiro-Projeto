@@ -1,0 +1,33 @@
+@charcet "UTF-8"
+*{
+    font-family:Arial, Helvetica,sans-serif;
+    /* height:100%;*/
+}
+body{
+   background-image: linear-gradient(to right, #5FC782, #69C7BD) ;
+}
+main{
+    background-color: #fff; /*isso aqui define o fundo do main como branco, poderia ser outra cor*/
+    border-radius: 26px; /* isso aqui deiza as bordas arredondadas*/
+    box-shadow: 5px 5px 5px #305a56a8;/*nao ta funfando. FUNFOOOOUUUU*/
+    width: 600px;
+    padding: 10px;
+    margin: auto; /* isso aqui define a margem como auto*/
+
+}
+h1{
+    color: #C79A56;
+    text-align: center;
+    text-shadow: 1px 1px 1px #493921b2;
+}
+h2{
+    color: #69C7BD;
+}
+h3{
+
+}
+
+p{
+    text-align: justify;
+}
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+
+    h1{
+       background-color: antiquewhite;
+       height: 300px;
+       width: 300px;
+       border-width: solid ; /*boder-width é a largura da borda*/
+       border-color: darkslategray;
+    }
+    a{
+        border-width: 10px;
+        border-style: solid;
+        border-color: red;
+
+        padding-top: 10px; /*em cima, ess sempre será a ordem*/
+        padding-right: 10px; /*na direita,  ess sempre será a ordem*/
+        padding-bottom: 10px; /*em baixo,  ess sempre será a ordem*/
+        padding-left: 10px ; /*esquerda,  ess sempre será a ordem*/
+         /*a margim- é da borda pra fora, o padding é da borda pra dentro
+         para deixar a margin centralizada é só usar - margin:auto;
+         se for um texto põe um text-align :center;*/
+         
+       
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        
+        /*o outline fica entre a margem e a borda*/
+        outline-width: 5px;
+        outline-style: dashed; /*dashed é tracejado*/
+        outline-color: salmon;
+
+       /* 
+        Para simplificar vamos usar shorthands(uma maozinha)
+       no caso eu boto o que é e informo na sequencia
+        border: width style color. ou seja: 10px solid darkgrey
+        padding:top right botom left ou seja: 10px 10px 10px 10px, e se as quatro forem iguais basta informar uma vez só. no caso- padding: 10px; mas também pode colocar dois valores ex- 10px e 20px ele vai considerar em cima e em baixo 10 e direita e esqueda 20px
+        margin:top right bottom left. ou seja 10px 10px 10px 10px ou só- margin: 10px;
+        outline: width style color. ou seja 5px dashed salmon;
+
+        extra- se um elemento é inline ou bl vc pode mudar isso no display.
+        */
+    
+}
+    /*a medida de padding geralmente é medida em quatro parte: o padding-top, padding-right, padding-bottom, padding-left*/
+</style>
+
+</head>
+<body>
+    <h1>ex de caixas box-level</h1>
+    <p>paragrafos também são, mas os <a href="#"> Links são exemplos de cais inline-level</a></p>
+
+</body>
+</html>

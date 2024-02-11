@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+<style>
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(184, 250, 250);
+  }
+header{
+  
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+nav{
+    background-color: aqua;
+    padding: 3px;
+    box-shadow: 1px 1px 1px rgb(0, 170, 170); /* a partir de -1px a sombra vai pra cima, a partir de 1px a sombra vai pra baixo vai pra baixo, a partir de -1 vai para esquerda, a partir de 1 vai para direita*/
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+
+    /*como criar a sua propria sombra?
+}
+nav > a:hover{ /*hover é o que acontece quando eu passo o mouse em cima, ou seja:  todos os links que estão dentro de nav farão x coisa quando eu passar o mouse*/
+    text-decoration: underline;
+    
+
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius:10px 0px ;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.425);
+
+}
+
+article{
+    background-color: bisque;
+}
+article > aside{ /*o aside é filho de article*/
+background-color: rgba(255, 228, 196, 0.712);
+padding: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+footer > p{
+    margin: 4px;
+
+}
+div#bola{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+</style>
+
+
+</head>
+
+
+
+<body>
+    <!--hoje o html é semanantico-->
+  <header>
+    <h1>Meu site</h1>
+    <nav> <!--aqui vou botar os links do meu site-->
+        <a href="#">links</a>
+        <a href="#">links</a>
+        <a href="#">links</a>
+        <a href="#">links</a>
+        <a href="#">links</a>
+    </nav>
+  </header>
+<main>
+<section id="assuntos"></section>
+<p>Esportes Politica Tecnologia</p>
+<section id="noticias"></section>
+<article>
+    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quisquam laborum amet in asperiores unde placeat architecto tenetur ut dicta a earum, optio eveniet eaque dignissimos veritatis, ex animi tempora.</h2>
+    <aside><p>Artigo josé da Silva</p></aside>
+</article>
+</main>
+<footer>
+<p>Desenvolvido por Crislaine Lucena</p>
+</footer><!--rodapé-->
+<div id="bola"> </div>
+
+
+
+</body>
+</html>
